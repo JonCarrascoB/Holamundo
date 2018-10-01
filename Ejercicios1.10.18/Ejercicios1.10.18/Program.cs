@@ -151,21 +151,27 @@ namespace Ejercicios1._10._18
             //double segundos;
             //segundos = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine((segundos / 60) / 60);
-            //Console.WriteLine(((segundos/60)/60)/24);
-
-            ////pide distncia y tiempo y genera velocidad
-            //Console.WriteLine("introducir distancia");
-            //double metros;
-            //metros = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("introducir tiempo");
-            //double horas, minutos, segundos;
-            //horas = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine(((segundos / 60) / 60) / 24);
+            //Console.WriteLine("introducir minutos");
+            //double minutos;
             //minutos = Convert.ToDouble(Console.ReadLine());
-            //segundos = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine("velocidad en m/s =  " + metros / segundos);
-            //Console.WriteLine("Velocidad en Km/h =  " + (metros / 1000) / (segundos / 3600));
+            //Console.WriteLine((minutos / 60) / 24);
+            //Console.WriteLine(((minutos / 60) / 24) / 365);
+
+            //pide distncia y tiempo y genera velocidad
+            Console.WriteLine("introducir distancia");
+            double metros;
+            metros = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("introducir tiempo");
+            double horas, minutos, segundos;
+            horas = Convert.ToDouble(Console.ReadLine());
+            minutos = Convert.ToDouble(Console.ReadLine());
+            segundos = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("velocidad en m/s =  " + metros / segundos);
+            Console.WriteLine("Velocidad en Km/h =  " + (metros / 1000) / (horas + (minutos /60) + (segundos / 3600)));
 
             //generar numero aleatorio de 1 a 100
+            g
 
 
             Console.ReadLine();
